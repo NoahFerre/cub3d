@@ -1,10 +1,10 @@
-      SO	 ./xpm/wall_2.xpm
+      SO	 ./xpm/salut.yep
 			
 			
 			F   220,100,0
-EA./xpm/wall_3.xpm
-NO./xpm/wall_1.xpm
-	WE./xpm/wall_4.xpm
+EA./xpm/salut.yep
+NO./xpm/salut.yep
+	WE./xpm/salut.yep
 
 	C255,30,0
 

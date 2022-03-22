@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 13:11:31 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/17 08:19:42 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/22 07:31:27 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,4 +82,5 @@ void	check_colors(char *path, t_texture_coords texture_coords)
 	check_characters_line(file, texture_coords, 0);
 	check_number_point(file, texture_coords, 1);
 	check_number_point(file, texture_coords, 0);
+	free_map(file);
 }

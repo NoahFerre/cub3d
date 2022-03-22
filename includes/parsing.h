@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:54:53 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/17 08:14:39 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/21 09:22:52 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,9 +42,13 @@ typedef struct s_color
 typedef struct s_data
 {
 	char	*path_to_north;
+	t_color	north_texture;
 	char	*path_to_south;
+	t_color	south_texture;
 	char	*path_to_east;
+	t_color	east_texture;
 	char	*path_to_west;
+	t_color	west_texture;
 	t_color	floor_color;
 	t_color	ceiling_color;
 	char	**map;
@@ -80,6 +84,7 @@ void				check_texture_existence(t_data *data);
 void				check_colors(char *path, t_texture_coords texture_coords);
 void				check_if_map_empty(char *path);
 void				check_map(t_data *data);
+void				get_textures(t_data *data);
 
 //utils
 
@@ -89,5 +94,6 @@ int					get_size(char *path);
 char				*get_file(char *path);
 int					condition(char *file, int i);
 void				init_coords(t_texture_coords *texture_coords);
+void				print_color(t_color color);
 
 #endif
