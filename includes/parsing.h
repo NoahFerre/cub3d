@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:54:53 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/21 09:22:52 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/25 17:18:56 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,9 @@ typedef struct s_data
 	t_color	ceiling_color;
 	char	**map;
 	char	**file;
+	int		*int_map;
+	int		x;
+	int		y;
 }	t_data;
 
 //parsing
@@ -85,6 +88,7 @@ void				check_colors(char *path, t_texture_coords texture_coords);
 void				check_if_map_empty(char *path);
 void				check_map(t_data *data);
 void				get_textures(t_data *data);
+void				get_int_map(t_data *data);
 
 //utils
 
