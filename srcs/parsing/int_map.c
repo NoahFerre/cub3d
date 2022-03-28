@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 17:06:04 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/28 09:04:19 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/28 15:15:33 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ void	get_int_map(t_data *data)
 		{
 			if (data->map[i][j] == 'N' || data->map[i][j] == 'E'
 				|| data->map[i][j] == 'W' || data->map[i][j] == 'S')
-				data->int_map[++k] = 0;
+				data->int_map[++k] = 2;
 			else if (ft_isdigit(data->map[i][j]) == 0)
 				data->int_map[++k] = -1;
 			else
