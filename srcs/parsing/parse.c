@@ -95,5 +95,6 @@ t_data	*parse(int argc, char **argv)
 	check_texture_existence(data);
 	get_colors(data, texture_coords);
 	get_int_map(data);
+	print_int_tab(data->int_map, data->x, data->y);
 	return (data);
 }

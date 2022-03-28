@@ -1,12 +1,15 @@
-WE ./xpm/wall_1.xpm
-EA ./xpm/wall_1.xpm
-C50,50,50
-F50,50,50
+      SO	 ./xpm/salut.yep
+			
+			
+			F   220,100,0
+EA./xpm/salut.yep
+NO./xpm/salut.yep
+	WE./xpm/salut.yep
 
-	SO ./xpm/wall_1.xpm
+	C255,30,0
 
-NO ./xpm/wall_1.xpm 
+11111
+100W1
+11111
 
-1111111
-1W00001
-1111111
+

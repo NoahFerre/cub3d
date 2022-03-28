@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:54:53 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/25 17:18:56 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/28 08:53:16 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,5 +99,6 @@ char				*get_file(char *path);
 int					condition(char *file, int i);
 void				init_coords(t_texture_coords *texture_coords);
 void				print_color(t_color color);
+void				print_int_tab(int *tab, int x, int y);
 
 #endif

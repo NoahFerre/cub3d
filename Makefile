@@ -1,7 +1,7 @@
 NAME = cube
 CC = cc
 RM = rm -f
-CFLAGS = -Wall -Wextra -Werror -g
+CFLAGS = -Wall -Wextra -Werror -g -fsanitize=address
 
 SRCS = $(wildcard srcs/*.c) \
 	$(wildcard srcs/parsing/*.c) \
