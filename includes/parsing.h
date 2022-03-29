@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/15 12:54:53 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/28 08:53:16 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/29 07:08:44 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,7 @@ typedef struct s_data
 	int		*int_map;
 	int		x;
 	int		y;
+	char	player_direction;
 }	t_data;
 
 //parsing

@@ -6,7 +6,7 @@
 /*   By: nferre <nferre@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/17 07:46:03 by nferre            #+#    #+#             */
-/*   Updated: 2022/03/28 09:00:18 by nferre           ###   ########.fr       */
+/*   Updated: 2022/03/29 07:19:36 by nferre           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void	print_color(t_color color)
 
 void	print_int_tab(int *tab, int x, int y)
 {
-	int i;
+	int	i;
 
 	i = -1;
 	while (++i != x * y)
